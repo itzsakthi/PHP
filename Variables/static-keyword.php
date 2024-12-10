@@ -15,14 +15,25 @@
         $x++;
     }
 
-    run();
+    run();  // First call, x starts from 0
     echo "<br>";
 
-    run();
+    run();  // Second call, x will be 1
     echo "<br>";
 
-    run();
+    run();  // Third call, x will be 2
     echo "<br>";
+
+    run();  // Fourth call, x will be 3
+    echo "<br>";
+
+    run();  // Fifth call, x will be 4
+    echo "<br>";
+
+    run();  // Sixth call, x will be 5
+    echo "<br>";
+
     ?>
+
 </body>
 </html>
